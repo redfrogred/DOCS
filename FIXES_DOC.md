@@ -10,3 +10,18 @@ Tried several things, but the fix was doing this on     the physical phone:
 1. Go to Settings  
 2. Find the App  
 3. Uninstall it  
+
+> Various APK BUild errors   
+
+First fix:
+in _ROOT_/Android/build.gradle change:
+ext.kotlin_version = '1.3.5'	
+to
+ext.kotlin_version = '1.5.0'
+
+Second Fix:
+in _ROOT_/Android/App/build.gradle change:
+minSdkVersion flutter.minSdkVersion	
+to
+minSdkVersion 19
+
