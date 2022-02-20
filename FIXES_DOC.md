@@ -13,15 +13,15 @@ Tried several things, but the fix was doing this on     the physical phone:
 
 > Various APK BUild errors   
 
-First fix:
-in _ROOT_/Android/build.gradle change:
-ext.kotlin_version = '1.3.5'	
-to
+First fix:  
+in _ROOT_/Android/build.gradle change:  
+ext.kotlin_version = '1.3.5'	  
+to  
 ext.kotlin_version = '1.5.0'
 
-Second Fix:
-in _ROOT_/Android/App/build.gradle change:
-minSdkVersion flutter.minSdkVersion	
-to
-minSdkVersion 19
+Second Fix:  
+in _ROOT_/Android/App/build.gradle change:  
+minSdkVersion flutter.minSdkVersion	  
+to  
+minSdkVersion 19  
 
