@@ -25,3 +25,9 @@ minSdkVersion flutter.minSdkVersion
 to  
 minSdkVersion 19  
 
+You push these tweaks with   
+>  git add android/build.gradle -f  
+and
+>  git add android/app/build.gradle -f
+which forces them to stage even though .gitignore wants to resist...
+
