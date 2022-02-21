@@ -25,6 +25,20 @@ These next few are a level below...
 
 Finally, there are these less-used ones:
 
-> git reset (under "add" for all added files)  
+> git reset (undo "add" for all added files)  
 > git branch -a (This shows all branches)  
 > git reset --soft HEAD^ (removes last local commit)  
+  
+  
+___  
+___  
+___  
+
+_IF YOU NEED TO DELETE A BRANCH_ (and restore things locally, to how they were before a failed branch effort) do this:
+
+> git checkout main  
+> git fetch origin  
+> git reset --hard origin/main 
+> git clean -f -d 
+
+^ from https://stackoverflow.com/questions/42877852/undo-local-changes-in-git (see answer from "Stevoisiak")
