@@ -20,7 +20,7 @@ and
 These next few are a level below...
 
 > git checkout BRANCH_NAME  
-> git checkout -b "BRANCH_NAME"
+> git checkout -b "BRANCH_NAME"   
 > git pull  
 
 Finally, there are these less-used ones:
