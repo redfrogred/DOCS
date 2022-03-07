@@ -4,7 +4,7 @@
 
 flutter run -d LG  
 
-adb uninstall com.fluidmobility.fireblade
+adb uninstall com.[PROJECT_NAME_HERE]
 
 > FLUTTER BUILDS  
 
