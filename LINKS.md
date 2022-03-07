@@ -1,5 +1,8 @@
  # USEFUL LINKS
  
-> FREE IMAGES
+> FREE IMAGES  
 https://pixabay.com/
+
+> MARKDOWN CHEAT SHEET
+http://mdcheatsheet.com/  
 
